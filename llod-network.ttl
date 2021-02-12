@@ -1,0 +1,578 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix llodnet: <https://linguistic-lod.org/network#> .
+
+llodnet:anonId_59  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
+        foaf:theme   llodnet:Ontology_Mangement_Systems .
+
+llodnet:anonId_38  a  foaf:Person , llodnet:Participant .
+
+llodnet:LiODi  a       foaf:Project ;
+        rdfs:label     "LiODi" ;
+        foaf:fundedBy  <https://www.bmbf.de/> ;
+        foaf:homepage  <http://www.acoli.informatik.uni-frankfurt.de/liodi.html> .
+
+llodnet:anonId_101  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_17  a  foaf:Person , llodnet:Participant .
+
+llodnet:Kosovo  a   llodnet:Country ;
+        rdfs:label  "Kosovo" .
+
+llodnet:Greece  a   llodnet:Country ;
+        rdfs:label  "Greece" .
+
+llodnet:anonId_88  a  foaf:Person , llodnet:Participant .
+
+llodnet:startDate  a  owl:DatatypeProperty ;
+        rdfs:range  <http://www.w3.org/2001/XMLSchema#dateTime> .
+
+llodnet:anonId_67  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_109  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_46  a  foaf:Person , llodnet:Participant .
+
+llodnet:TrainingSchool
+        a                owl:Class ;
+        rdfs:label       "Training School"@en ;
+        rdfs:subClassOf  llodnet:Events .
+
+llodnet:Germany  a  llodnet:Country ;
+        rdfs:label  "Germany" .
+
+llodnet:anonId_25  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany> ;
+        foaf:theme   llodnet:SPARQL , llodnet:RDF_transformation_and_validation , llodnet:OntoLex-Lemon .
+
+<https://linguistic-lod.org/network#CTU_in_Prague,_Czech_Republic>
+        a           foaf:Organization ;
+        rdfs:label  "CTU in Prague, Czech Republic" .
+
+llodnet:Hungary  a  llodnet:Country ;
+        rdfs:label  "Hungary" .
+
+llodnet:anonId_96  a  foaf:Person , llodnet:Participant .
+
+llodnet:hasParticipant
+        a              owl:ObjectProperty ;
+        rdfs:domain    llodnet:Events ;
+        owl:inverseOf  llodnet:participatesIn .
+
+llodnet:anonId_75  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_54  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#University_of_Zaragoza,_Spain> ;
+        foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
+
+llodnet:anonId_33  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_12  a  foaf:Person , llodnet:Participant .
+
+llodnet:Netherlands  a  llodnet:Country ;
+        rdfs:label  "Netherlands" .
+
+llodnet:Elexis  a      foaf:Project ;
+        rdfs:label     "Elexis" ;
+        foaf:homepage  <https://elex.is/> .
+
+llodnet:France  a   llodnet:Country ;
+        rdfs:label  "France" .
+
+llodnet:anonId_7  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_83  a  foaf:Person , llodnet:Participant .
+
+llodnet:Lecturers_and_Tutors
+        a                owl:Class ;
+        rdfs:label       "Lecturers and Tutors"@en ;
+        rdfs:subClassOf  foaf:Group .
+
+llodnet:anonId_62  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#Romanian_Academy_Iaşi_Branch,_Romania>
+        a           foaf:Organization ;
+        rdfs:label  "Romanian Academy Iaşi Branch, Romania" .
+
+llodnet:anonId_41  a  llodnet:OrganisationCommittee , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Romanian_Academy,_Bucharest,_Romania> .
+
+llodnet:anonId_104  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_20  a  foaf:Person , llodnet:Participant .
+
+llodnet:Egypt  a    llodnet:Country ;
+        rdfs:label  "Egypt" .
+
+llodnet:Romania  a  llodnet:Country ;
+        rdfs:label  "Romania" .
+
+llodnet:anonId_91  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_70  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_49  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_112  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_28  a  foaf:Person , llodnet:Participant .
+
+llodnet:Serbia  a   llodnet:Country ;
+        rdfs:label  "Serbia" .
+
+llodnet:anonId_99  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#National_University_of_Ireland,_Galway,_Ireland> ;
+        foaf:theme   llodnet:OntoLex-Lemon , llodnet:Ontology_Mangement_Systems .
+
+llodnet:anonId_2  a  foaf:Person , llodnet:Participant .
+
+llodnet:Latvia  a   llodnet:Country ;
+        rdfs:label  "Latvia" .
+
+llodnet:anonId_78  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_57  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_36  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_15  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#_University_of_Iaşi_(UAIC)>
+        a           foaf:Organization ;
+        rdfs:label  " University of Iaşi (UAIC)" .
+
+llodnet:anonId_86  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_65  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_44  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_107  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_23  a  foaf:Person , llodnet:Participant .
+
+llodnet:Participant  a   rdfs:Class , owl:Class ;
+        rdfs:label       "Participant"@en ;
+        rdfs:subClassOf  foaf:Group .
+
+llodnet:Prêt-à-LLOD  a  foaf:Project ;
+        rdfs:label     "PrÃªt-Ã -LLOD" ;
+        foaf:fundedBy  <https://ec.europa.eu/programmes/horizon2020/en> ;
+        foaf:homepage  <https://pret-a-llod.github.io/> .
+
+llodnet:Austrian_Center_For_Digital_Humanities_and_Cultural_Heritage
+        a           foaf:Organization ;
+        rdfs:label  "Austrian Center_for Digital Humanities and Cultural Heritage" .
+
+llodnet:anonId_94  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_73  a  llodnet:SteeringCommittee , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Vassar_College,_New_York,_US)> .
+
+llodnet:anonId_52  a  llodnet:SteeringCommittee , llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#University_of_Zaragoza,_Spain> ;
+        foaf:theme   llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
+
+llodnet:anonId_115  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_31  a  llodnet:SteeringCommittee , foaf:Person .
+
+llodnet:anonId_10  a  foaf:Person , llodnet:Participant .
+
+llodnet:Ireland  a  llodnet:Country ;
+        rdfs:label  "Ireland"@en .
+
+llodnet:participatesIn
+        a       owl:ObjectProperty .
+
+llodnet:Albania  a  llodnet:Country ;
+        rdfs:label  "Albania" .
+
+llodnet:anonId_5  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_81  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_60  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_39  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_102  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  llodnet:German_Research_Center_for_Artificial_Intelligence , llodnet:Austrian_Center_For_Digital_Humanities_and_Cultural_Heritage ;
+        foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linguistic_Linked_Data .
+
+llodnet:anonId_18  a  foaf:Person , llodnet:Participant .
+
+llodnet:North_Macedonia
+        a           llodnet:Country ;
+        rdfs:label  "North Macedonia" .
+
+llodnet:Conference  a    owl:Class ;
+        rdfs:label       "Conference"@en ;
+        rdfs:subClassOf  llodnet:Events .
+
+llodnet:anonId_89  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_68  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_47  a  foaf:Person , llodnet:Participant .
+
+llodnet:Lithuania  a  llodnet:Country ;
+        rdfs:label  "Lithuania" .
+
+llodnet:anonId_110  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_26  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany> ;
+        foaf:theme   llodnet:RDF_transformation_and_validation .
+
+llodnet:German_Research_Center_for_Artificial_Intelligence
+        a           foaf:Organization ;
+        rdfs:label  "German Research Center for Artificial Intelligence (DFKI), Germany" .
+
+llodnet:Contributors  a  owl:Class ;
+        rdfs:label       "Contributors"@en ;
+        rdfs:subClassOf  owl:Thing .
+
+llodnet:anonId_97  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_76  a  foaf:Person , llodnet:Participant .
+
+llodnet:hasParticipant_Country
+        a            owl:ObjectProperty ;
+        rdfs:domain  llodnet:Events ;
+        rdfs:range   llodnet:Country .
+
+llodnet:anonId_55  a  foaf:Person , llodnet:Participant .
+
+llodnet:OrganisationCommittee
+        a                owl:Class ;
+        rdfs:label       "Organisation Committee"@en ;
+        rdfs:subClassOf  foaf:Group .
+
+llodnet:OntoLex-Lemon
+        a           llodnet:Themes ;
+        rdfs:label  "OntoLex-Lmeon"@en ;
+        foaf:page   <https://www.w3.org/2016/05/ontolex/> .
+
+llodnet:anonId_34  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#University_of_Zaragoza,_Spain>
+        a           foaf:Organization ;
+        rdfs:label  "University of Zaragoza, Spain" .
+
+llodnet:anonId_13  a  foaf:Person , llodnet:Participant .
+
+llodnet:LDK_2021  a        llodnet:Conference ;
+        rdfs:label         "3rd Conference on Language, Data and Knowledge"@en ;
+        foaf:homepage      <http://2021.ldk-conf.org/> ;
+        foaf:maker         <https://nexuslinguarum.eu/> ;
+        llodnet:endDate    "2021-09-03T09:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        llodnet:startDate  "2021-09-01T17:58:45.347"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+llodnet:anonId_8  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_84  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#Romanian_Academy,_Bucharest,_Romania>
+        a           foaf:Organization ;
+        rdfs:label  "Romanian Academy, Bucharest, Romania" .
+
+llodnet:anonId_63  a  foaf:Person , llodnet:Participant .
+
+llodnet:Luxemburg  a  llodnet:Country ;
+        rdfs:label  "Luxemburg" .
+
+llodnet:anonId_42  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_105  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_21  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network>
+        a            owl:Ontology ;
+        owl:imports  foaf: .
+
+llodnet:India  a    llodnet:Country ;
+        rdfs:label  "India" .
+
+llodnet:anonId_92  a  foaf:Person , llodnet:Participant .
+
+llodnet:Poland  a   llodnet:Country ;
+        rdfs:label  "Poland" .
+
+llodnet:anonId_71  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#InfAI_at_Leipzig_University,_Germany> , <https://linguistic-lod.org/network#CTU_in_Prague,_Czech_Republic> ;
+        foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL .
+
+llodnet:anonId_50  a  foaf:Person , llodnet:Participant .
+
+llodnet:GeoPoliticalEntity
+        a       owl:Class .
+
+llodnet:anonId_113  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_29  a  foaf:Person , llodnet:Participant .
+
+llodnet:Themes  a        owl:Class ;
+        rdfs:label       "Themes"@en ;
+        rdfs:subClassOf  owl:Thing .
+
+<https://linguistic-lod.org/network#InfAI_at_Leipzig_University,_Germany>
+        a           foaf:Organization ;
+        rdfs:label  "InfAI at Leipzig University, Germany" .
+
+llodnet:Croatia  a  llodnet:Country ;
+        rdfs:label  "Croatia" .
+
+llodnet:anonId_3  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_79  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_58  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_37  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_100  a  foaf:Person , llodnet:Participant .
+
+llodnet:Austria  a  llodnet:Country ;
+        rdfs:label  "Austria" .
+
+llodnet:anonId_16  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#National_University_of_Ireland,_Galway,_Ireland>
+        a           foaf:Organization ;
+        rdfs:label  "National University of Ireland, Galway, Ireland" .
+
+llodnet:anonId_87  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#Vassar_College,_New_York,_US)>
+        a           foaf:Organization ;
+        rdfs:label  "Vassar College, New York, US)" .
+
+llodnet:anonId_66  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_45  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_108  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_24  a  foaf:Person , llodnet:Participant .
+
+llodnet:United_Kingdom
+        a           llodnet:Country ;
+        rdfs:label  "United Kingdom" .
+
+llodnet:Portugal  a  llodnet:Country ;
+        rdfs:label  "Portugal" .
+
+llodnet:Linked_Data  a  llodnet:Themes ;
+        rdfs:label  "Linked Data"@en ;
+        foaf:page   <https://en.wikipedia.org/wiki/Linked_data> .
+
+llodnet:anonId_95  a  foaf:Person , llodnet:Participant .
+
+llodnet:Bulgaria  a  llodnet:Country ;
+        rdfs:label  "Bulgaria" .
+
+llodnet:anonId_74  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_53  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_116  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_32  a  llodnet:SteeringCommittee , llodnet:OrganisationCommittee , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#_University_of_Iaşi_(UAIC)> , <https://linguistic-lod.org/network#Romanian_Academy_Iaşi_Branch,_Romania> .
+
+llodnet:anonId_11  a  foaf:Person , llodnet:Participant .
+
+llodnet:Romania_Then_and_Now
+        a                  llodnet:SocialEvent ;
+        rdfs:label         "Romania Then and Now"@en ;
+        foaf:theme         llodnet:Romania_Then_and_Now ;
+        llodnet:endDate    "2021-02-11T21:43:19.833"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        llodnet:startDate  "2021-02-11T19:30:27.478"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+llodnet:ISA_2  a       foaf:Project ;
+        rdfs:label     "isa2" ;
+        foaf:homepage  <https://ec.europa.eu/isa2/> .
+
+llodnet:SocialEvent  a   owl:Class ;
+        rdfs:label       "Social Event"@en ;
+        rdfs:subClassOf  llodnet:Events .
+
+llodnet:anonId_6  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_82  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_61  a  foaf:Person , llodnet:Participant .
+
+<https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany>
+        a           foaf:Organization ;
+        rdfs:label  "Goethe-University Frankfurt am Main, Germany" .
+
+llodnet:anonId_40  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_103  a  foaf:Person , llodnet:Participant .
+
+rdfs:comment  rdfs:subPropertyOf  rdfs:label .
+
+llodnet:anonId_19  a  foaf:Person , llodnet:Participant .
+
+llodnet:SPARQL  a   llodnet:Themes ;
+        rdfs:label  "SPARQL"@en ;
+        foaf:page   <https://www.w3.org/TR/sparql11-overview/> .
+
+llodnet:anonId_90  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_69  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany> ;
+        foaf:theme   llodnet:SPARQL .
+
+llodnet:anonId_111  a  foaf:Person , llodnet:Participant .
+
+llodnet:Moldova  a  llodnet:Country ;
+        rdfs:label  "Moldova" .
+
+llodnet:anonId_48  a  foaf:Person , llodnet:Participant .
+
+llodnet:University_of_Rome_Tor_Vergata
+        a           foaf:Organization ;
+        rdfs:label  "University of Rome Tor Vergata, Italy" .
+
+llodnet:anonId_27  a  foaf:Person , llodnet:Participant .
+
+llodnet:Belarus  a  llodnet:Country ;
+        rdfs:label  "Belarus" .
+
+llodnet:Israel  a   llodnet:Country ;
+        rdfs:label  "Israel" .
+
+llodnet:Russia  a   llodnet:Country ;
+        rdfs:label  "Russia" .
+
+llodnet:Eurolan_21  a                   llodnet:TrainingSchool ;
+        rdfs:label                      "Eurolan 2021 Training School"@en ;
+        foaf:homepage                   <http://eurolan.info.uaic.ro/2021/index.html> ;
+        foaf:maker                      <https://linguistic-lod.org/network#_University_of_Iasi_(UAIC)> , <https://linguistic-lod.org/network#Romanian_Academy_Iaşi_Branch,_Romania> , llodnet:NexusLinguarum , <https://linguistic-lod.org/network#Romanian_Academy,_Bucharest,_Romania> ;
+        foaf:theme                      llodnet:OntoLex-Lemon , llodnet:Linguistic_Linked_Data , llodnet:Linked_Data , llodnet:SPARQL , llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Ontology_Mangement_Systems , llodnet:RDF_transformation_and_validation ;
+        llodnet:endDate                 "2021-02-12T13:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        llodnet:hasParticipant_Country  llodnet:North_Macedonia , llodnet:Hungary , llodnet:Austria , llodnet:Greece , llodnet:Romania , llodnet:India , llodnet:Egypt , llodnet:Portugal , llodnet:Kosovo , llodnet:Spain , llodnet:Netherlands , llodnet:Croatia , llodnet:Moldova , llodnet:Bulgaria , llodnet:Germany , llodnet:Czech_Republic , llodnet:Lithuania , llodnet:Israel , llodnet:United_Kingdom , llodnet:Russia , llodnet:Italy , llodnet:Luxemburg , llodnet:Albania , llodnet:Norway , llodnet:United_States , llodnet:Poland , llodnet:Latvia , llodnet:Bosnia_and_Herzegovina , llodnet:Belarus , llodnet:France , llodnet:Serbia , llodnet:Montenegro ;
+        llodnet:startDate               "2021-02-08T09:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+llodnet:anonId_98  a  foaf:Person , llodnet:Participant .
+
+llodnet:Spain  a    llodnet:Country ;
+        rdfs:label  "Spain" .
+
+llodnet:anonId_1  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_77  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_56  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_35  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_14  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
+        foaf:theme   llodnet:OntoLex-Lemon , llodnet:Ontology_Mangement_Systems .
+
+llodnet:RDF_transformation_and_validation
+        a           llodnet:Themes ;
+        rdfs:label  "RDF transformation and validation"@en .
+
+llodnet:Ontology_Mangement_Systems
+        a           llodnet:Themes ;
+        rdfs:label  "Ontology_Mangement_Systems"@en ;
+        foaf:page   <https://protege.stanford.edu/> , <http://vocbench.uniroma2.it/> .
+
+llodnet:NexusLinguarum
+        a              foaf:Project ;
+        rdfs:label     "NexusLinguarum" ;
+        foaf:fundedBy  <https://www.cost.eu/> ;
+        foaf:homepage  <https://nexuslinguarum.eu/> .
+
+llodnet:anonId_85  a  foaf:Person , llodnet:Participant .
+
+llodnet:Events  a        owl:Class ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           <http://www.w3.org/2001/XMLSchema#dateTime> ;
+                           owl:onProperty            llodnet:startDate ;
+                           owl:qualifiedCardinality  "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           <http://www.w3.org/2001/XMLSchema#dateTime> ;
+                           owl:onProperty            llodnet:endDate ;
+                           owl:qualifiedCardinality  "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>
+                         ] .
+
+llodnet:anonId_9  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
+        foaf:theme   llodnet:Ontology_Mangement_Systems .
+
+llodnet:Linguistic_Linked_Data
+        a           llodnet:Themes ;
+        rdfs:label  "Linguistic Linked Data"@en ;
+        foaf:page   <https://fr.wikipedia.org/wiki/Donn%C3%A9es_linguistiques_li%C3%A9es_ouvertes> , <https://en.wikipedia.org/wiki/Linguistic_Linked_Open_Data> .
+
+llodnet:Bosnia_and_Herzegovina
+        a           llodnet:Country ;
+        rdfs:label  "Bosnia and Herzegovina" .
+
+llodnet:Ontologies_RDF_RDFS_OWL
+        a           llodnet:Themes ;
+        rdfs:label  "Ontologies_RDF_RDFS_OWL"@en ;
+        foaf:page   <https://www.w3.org/TR/rdf-schema/#bib-RDF11-PRIMER> , <https://www.w3.org/TR/rdf-primer/> , <https://www.w3.org/TR/owl2-primer/> , <https://en.wikipedia.org/wiki/Ontology_(information_science)> .
+
+llodnet:anonId_64  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_43  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_106  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_22  a  foaf:Person , llodnet:Participant .
+
+llodnet:Country  a       owl:Class ;
+        rdfs:subClassOf  llodnet:GeoPoliticalEntity .
+
+llodnet:Norway  a   llodnet:Country ;
+        rdfs:label  "Norway" .
+
+llodnet:anonId_93  a  foaf:Person , llodnet:Participant .
+
+llodnet:SteeringCommittee
+        a                owl:Class ;
+        rdfs:label       "Steering Committee"@en ;
+        rdfs:subClassOf  foaf:Group .
+
+llodnet:anonId_72  a  foaf:Person , llodnet:Participant .
+
+llodnet:Czech_Republic
+        a           llodnet:Country ;
+        rdfs:label  "Czech Republic" .
+
+llodnet:anonId_51  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#National_University_of_Ireland,_Galway,_Ireland> ;
+        foaf:theme   llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
+
+llodnet:anonId_114  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_30  a  llodnet:SteeringCommittee , foaf:Person ;
+        foaf:member  <https://linguistic-lod.org/network#Romanian_Academy_Iaşi_Branch,_Romania> .
+
+llodnet:Italy  a    llodnet:Country ;
+        rdfs:label  "Italy" .
+
+llodnet:endDate  a  owl:DatatypeProperty ;
+        rdfs:range  <http://www.w3.org/2001/XMLSchema#dateTime> .
+
+llodnet:Montenegro  a  llodnet:Country ;
+        rdfs:label  "Montenegro" .
+
+llodnet:anonId_4  a  foaf:Person , llodnet:Participant .
+
+llodnet:anonId_80  a  foaf:Person , llodnet:Participant .
+
+llodnet:United_States
+        a           llodnet:Country ;
+        rdfs:label  "United States" .
