@@ -30,7 +30,7 @@ WHERE {
 }
 ```
 
-### Associating eack people with a number
+### Associating each people with a number
 
 I choose to associate each people with a number (her rank), but there is no RANK function in SPARQL 1.1. A solution found on stackoverflow consists in sorting the elements and counting the number of elements that are less than or equal to the element we have to rank.
 
@@ -138,7 +138,7 @@ WHERE {
 }
 ```
 
-### COPY all person triples substituting the anonymous id (filtering out personnal data)
+### COPY all person triples substituting the anonymous id (filtering out personal data)
 
 So, we just filter out literals as the rdfs:label is the only property having literal in the dataset.
 
