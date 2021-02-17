@@ -67,7 +67,10 @@ llodnet:anonId_54  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
         foaf:member  <https://linguistic-lod.org/network#University_of_Zaragoza,_Spain> ;
         foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
 
-llodnet:anonId_33  a  foaf:Person , llodnet:Participant .
+llodnet:Danka_Jokic  a  foaf:Person , llodnet:Participant ;
+        foaf:name "Danka Jokić"
+        foaf:familyName "Jokić" ;
+        foaf:givenName "Danka".
 
 llodnet:anonId_12  a  foaf:Person , llodnet:Participant .
 
@@ -353,7 +356,11 @@ llodnet:anonId_87  a  foaf:Person , llodnet:Participant .
 
 llodnet:anonId_66  a  foaf:Person , llodnet:Participant .
 
-llodnet:anonId_45  a  foaf:Person , llodnet:Participant .
+llodnet:Gilles_Sérasset
+        a           foaf:Person , llodnet:Participant ;
+        foaf:name "Gilles Sérasset" ;
+        foaf:givenName "Gilles" ;
+        foaf:familyName "Sérasset" .
 
 llodnet:anonId_108  a  foaf:Person , llodnet:Participant .
 
