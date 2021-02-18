@@ -358,6 +358,7 @@ llodnet:anonId_66  a  foaf:Person , llodnet:Participant .
 
 llodnet:Gilles_Sérasset
         a           foaf:Person , llodnet:Participant ;
+        foaf:homepage <http://serasset.bitbucket.io/>
         foaf:name "Gilles Sérasset" ;
         foaf:givenName "Gilles" ;
         foaf:familyName "Sérasset" .
