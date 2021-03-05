@@ -201,7 +201,9 @@ llodnet:anonId_60  a  foaf:Person , llodnet:Participant .
 
 llodnet:anonId_39  a  foaf:Person , llodnet:Participant .
 
-llodnet:anonId_102  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Thierry_Declerck
+        a            llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Thierry Declerck" ;
         foaf:member  llodnet:German_Research_Center_for_Artificial_Intelligence , llodnet:Austrian_Center_For_Digital_Humanities_and_Cultural_Heritage ;
         foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linguistic_Linked_Data .
 
@@ -514,9 +516,14 @@ llodnet:Events  a        owl:Class ;
                            owl:qualifiedCardinality  "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>
                          ] .
 
-llodnet:anonId_9  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Andrea_Turbati
+        a  llodnet:Lecturers_and_Tutors , foaf:Person ;
         foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
-        foaf:theme   llodnet:Ontology_Mangement_Systems .
+        foaf:theme   llodnet:Ontology_Mangement_Systems ;
+        foaf:homepage <http://art.uniroma2.it/turbati/>
+        foaf:name "Andrea Turbati" ;
+        foaf:givenName "Andrea" ;
+        foaf:familyName "Turbati" .
 
 llodnet:Linguistic_Linked_Data
         a           llodnet:Themes ;
