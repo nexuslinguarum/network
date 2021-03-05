@@ -93,7 +93,12 @@ llodnet:Lecturers_and_Tutors
         rdfs:label       "Lecturers and Tutors"@en ;
         rdfs:subClassOf  foaf:Group .
 
-llodnet:anonId_62  a  foaf:Person , llodnet:Participant .
+llodnet:Maria_Purificação_Moura_Silvano
+        a           foaf:Person , llodnet:Participant ;
+        foaf:homepage <https://www.purisilvano.pt>
+        foaf:name      "Purificação Silvano" ;
+        foaf:givenName "Purificação" ;
+        foaf:familyName "Silvano" .
 
 <https://linguistic-lod.org/network#Romanian_Academy_Iaşi_Branch,_Romania>
         a           foaf:Organization ;
@@ -566,7 +571,9 @@ llodnet:Czech_Republic
         a           llodnet:Country ;
         rdfs:label  "Czech Republic" .
 
-llodnet:anonId_51  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:John_McCrae  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "John McCrae" ;
+        foaf:homepage <http://john.mccr.ae/> ;
         foaf:member  <https://linguistic-lod.org/network#National_University_of_Ireland,_Galway,_Ireland> ;
         foaf:theme   llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
 
