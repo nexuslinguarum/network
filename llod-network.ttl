@@ -68,7 +68,7 @@ llodnet:anonId_54  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
         foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
 
 llodnet:Danka_Jokic  a  foaf:Person , llodnet:Participant ;
-        foaf:name "Danka Jokić"
+        foaf:name "Danka Jokić" ;
         foaf:familyName "Jokić" ;
         foaf:givenName "Danka".
 
@@ -95,7 +95,7 @@ llodnet:Lecturers_and_Tutors
 
 llodnet:Maria_Purificação_Moura_Silvano
         a           foaf:Person , llodnet:Participant ;
-        foaf:homepage <https://www.purisilvano.pt>
+        foaf:homepage <https://www.purisilvano.pt> ;
         foaf:name      "Purificação Silvano" ;
         foaf:givenName "Purificação" ;
         foaf:familyName "Silvano" .
@@ -130,7 +130,12 @@ llodnet:anonId_28  a  foaf:Person , llodnet:Participant .
 llodnet:Serbia  a   llodnet:Country ;
         rdfs:label  "Serbia" .
 
-llodnet:anonId_99  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Sina_Ahmadi  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Sina Ahmadi" ;
+        foaf:homepage <https://sinaahmadi.github.io/> ;
+        foaf:name "Sina Ahmadi" ;
+        foaf:givenName "Sina" ;
+        foaf:familyName "Ahmadi" ;
         foaf:member  <https://linguistic-lod.org/network#National_University_of_Ireland,_Galway,_Ireland> ;
         foaf:theme   llodnet:OntoLex-Lemon , llodnet:Ontology_Mangement_Systems .
 
@@ -365,7 +370,7 @@ llodnet:anonId_66  a  foaf:Person , llodnet:Participant .
 
 llodnet:Gilles_Sérasset
         a           foaf:Person , llodnet:Participant ;
-        foaf:homepage <http://serasset.bitbucket.io/>
+        foaf:homepage <http://serasset.bitbucket.io/> ;
         foaf:name "Gilles Sérasset" ;
         foaf:givenName "Gilles" ;
         foaf:familyName "Sérasset" .
@@ -525,7 +530,7 @@ llodnet:Andrea_Turbati
         a  llodnet:Lecturers_and_Tutors , foaf:Person ;
         foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
         foaf:theme   llodnet:Ontology_Mangement_Systems ;
-        foaf:homepage <http://art.uniroma2.it/turbati/>
+        foaf:homepage <http://art.uniroma2.it/turbati/> ;
         foaf:name "Andrea Turbati" ;
         foaf:givenName "Andrea" ;
         foaf:familyName "Turbati" .
