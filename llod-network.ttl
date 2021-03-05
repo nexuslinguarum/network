@@ -3,7 +3,13 @@
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix llodnet: <https://linguistic-lod.org/network#> .
 
-llodnet:anonId_59  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Manuel_Fiorelli
+        a            llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Manuel Fiorelli" ;
+        foaf:homepage <http://art.uniroma2.it/fiorelli/> ;
+        foaf:name "Manuel Fiorelli" ;
+        foaf:givenName "Manuel" ;
+        foaf:familyName "Fiorelli" ;
         foaf:member  llodnet:University_of_Rome_Tor_Vergata ;
         foaf:theme   llodnet:Ontology_Mangement_Systems .
 
@@ -184,9 +190,14 @@ llodnet:anonId_94  a  foaf:Person , llodnet:Participant .
 llodnet:anonId_73  a  llodnet:SteeringCommittee , foaf:Person ;
         foaf:member  <https://linguistic-lod.org/network#Vassar_College,_New_York,_US)> .
 
-llodnet:anonId_52  a  llodnet:SteeringCommittee , llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Jorge_Gracia  a  foaf:Person , llodnet:SteeringCommittee , llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors ;
+        rdfs:label   "Jorge Gracia" ;
+        foaf:homepage <http://jogracia.url.ph/> ;
+        foaf:name "Jorge Gracia", "Jorge Gracia del Río" ;
+        foaf:givenName "Jorge" ;
+        foaf:familyName "Gracia" ;
         foaf:member  <https://linguistic-lod.org/network#University_of_Zaragoza,_Spain> ;
-        foaf:theme   llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
+        foaf:theme   llodnet:OntoLex-Lemon , llodnet:Linguistic_Linked_Data , llodnet:Linked_Data .
 
 llodnet:anonId_115  a  foaf:Person , llodnet:Participant .
 
