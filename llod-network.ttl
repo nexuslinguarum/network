@@ -53,7 +53,13 @@ llodnet:TrainingSchool
 llodnet:Germany  a  llodnet:Country ;
         rdfs:label  "Germany" .
 
-llodnet:anonId_25  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Christian_Chiarcos
+        a            llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Christian Chiarcos" ;
+        foaf:homepage <https://www.researchgate.net/profile/Christian-Chiarcos/>, <http://www.acoli.informatik.uni-frankfurt.de/>;
+	foaf:name "Christian Chiarcos" ;
+	foaf:givenName "Christian" ;
+	foaf:familyName "Chiarcos" ;
         foaf:member  <https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany> ;
         foaf:theme   llodnet:SPARQL , llodnet:RDF_transformation_and_validation , llodnet:OntoLex-Lemon .
 
