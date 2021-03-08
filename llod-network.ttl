@@ -478,7 +478,12 @@ llodnet:SPARQL  a   llodnet:Themes ;
 
 llodnet:anonId_90  a  foaf:Person , llodnet:Participant .
 
-llodnet:anonId_69  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Max_Ionov  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Maxim Ionov", "Max Ionov", "Максим Ионов"@ru ;
+        foaf:homepage <https://ionov.me/> ;
+        foaf:name "Maxim Ionov", "Max Ionov", "Максим Ионов"@ru ;
+        foaf:givenName "Maxim" ;
+        foaf:familyName "Ionov" ;
         foaf:member  <https://linguistic-lod.org/network#Goethe-University_Frankfurt_am_Main,_Germany> ;
         foaf:theme   llodnet:SPARQL .
 
