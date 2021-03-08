@@ -79,7 +79,13 @@ llodnet:hasParticipant
 
 llodnet:anonId_75  a  foaf:Person , llodnet:Participant .
 
-llodnet:anonId_54  a  llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Julia_Bosque-Gil
+        a            llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Julia Bosque-Gil" ;
+	foaf:homepage <https://www.researchgate.net/profile/Julia-Bosque-Gil/> ;
+	foaf:name "Julia Bosque-Gil", "Julia Bosque Gil" ;
+	foaf:givenName "Julia" ;
+	foaf:familyName "Bosque-Gil" ;
         foaf:member  <https://linguistic-lod.org/network#University_of_Zaragoza,_Spain> ;
         foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL , llodnet:Linked_Data , llodnet:Linguistic_Linked_Data , llodnet:OntoLex-Lemon .
 
@@ -338,7 +344,13 @@ llodnet:anonId_92  a  foaf:Person , llodnet:Participant .
 llodnet:Poland  a   llodnet:Country ;
         rdfs:label  "Poland" .
 
-llodnet:anonId_71  a  llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+llodnet:Milan_Dojchinovski
+        a            llodnet:OrganisationCommittee , llodnet:Lecturers_and_Tutors , foaf:Person ;
+        rdfs:label   "Milan Dojchinovski" ;
+        foaf:homepage <http://dojchinovski.mk/> ;
+	foaf:name "Milan Dojchinovski" ;
+	foaf:givenName "Milan" ;
+	foaf:familyName "Dojchinovski" ;
         foaf:member  <https://linguistic-lod.org/network#InfAI_at_Leipzig_University,_Germany> , <https://linguistic-lod.org/network#CTU_in_Prague,_Czech_Republic> ;
         foaf:theme   llodnet:Ontologies_RDF_RDFS_OWL .
 
